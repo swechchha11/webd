@@ -1,0 +1,141 @@
+body
+{background:radial-gradient(red,yellow);
+    text-align:center;
+
+}
+.out{
+    background:linear-gradient(blue,white);
+    
+    width:500px;
+    height:500px;
+    /*position:absolute;*/
+    
+    border:20px solid black;
+    display:inline-block;
+    border-radius:50%;
+}
+.five{
+    font-size:larger;
+    position:absolute;
+    top:54%;
+    left:57%;
+}
+.seven{
+    font-size:larger;
+    position:absolute;
+    top:54%;
+    left:42%;
+}
+.four{
+    font-size:larger;
+    position:absolute;
+    top:43%;
+    left:62%;
+
+}
+.eight{
+    font-size:larger;
+    position:absolute;
+    top:43%;
+    left:37%;
+
+}
+.twelve{font-size:larger;}
+.six{font-size:larger;
+    position:absolute;
+    top:59.5%;
+    left:50%;
+
+
+}
+
+.one{font-size:larger;
+    position:absolute;
+    top:8.5%;
+    left:57%;}
+.dot{font-size:larger;
+    position:absolute;
+    top:30.5%;
+    left:50%;
+}
+.eleven{font-size:larger;
+    position:absolute;
+    top:9%;
+    left:40.5%;}
+  
+.min{
+    width:5px;
+    height:190px;
+    border:3px solid black;
+    background: linear-gradient(blue,gray);
+    position:absolute;
+    top:10%;
+    left:49%;
+    border-radius:40%;
+    transform-origin:bottom;
+    animation:min_anim 3600s linear infinite;}
+.three{
+    font-size:larger;
+        position:absolute;
+        top:30%;
+        left:64%;
+}
+    .hrs{
+        width:4px;
+        height:150px;
+        border:3px solid black;
+        background:linear-gradient(red,grey);
+        position:absolute;
+        top:15%;
+        left:49%;
+        border-radius:40%;
+        transform-origin:bottom;
+        animation:hrs_anim 36000s linear infinite;}
+.two{
+    font-size:larger;
+        position:absolute;
+        top:19%;
+        left:62%;
+}
+@keyframes sec_anim {
+    from{transform:rotateZ(0deg);}
+    to{transform:rotateZ(360deg);}
+    
+}
+@keyframes min_anim {
+    from{transform:rotateZ(0deg);}
+    to{transform:rotateZ(360deg);}
+    
+}
+@keyframes hrs_anim {
+    from{transform:rotateZ(0deg);}
+    to{transform:rotateZ(360deg);}
+    
+}
+.ten{
+    font-size:larger;
+    position:absolute;
+    top:20%;
+    left:36.5%;
+
+}
+        .sec{
+            width:3px;
+            height:90px;
+            border:3px solid black;
+            background:linear-gradient(black,gray);
+            position:absolute;
+            top:22.5%;
+            left:49%;
+            border-radius:40%;
+            transform-origin:bottom;
+        animation:sec_anim 60s linear infinite;}
+
+.nine{font-size:larger;
+    position:absolute;
+    top: 30%;
+    left:34.8%;
+    
+    
+}
+
