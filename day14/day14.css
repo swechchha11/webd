@@ -1,0 +1,39 @@
+#aa{
+    font-size:3rem;
+    color:white;
+    background-color:blueviolet;
+    padding:8px;
+    margin:10px;
+
+}
+
+#bb{
+    font-size:3rem;
+    color:white;
+    background-color:darkblue;
+    padding:8px;
+    margin:10px;
+    border:2px solid yellowgreen;
+
+}
+#gg{
+    font-size:3rem;
+    color:white;
+    background-color:darkblue;
+    padding:8px;
+    margin:10px;
+    border:2px solid yellowgreen;
+
+}
+
+#ee{
+    background-color:yellow;
+    color:brown;
+}
+
+#ff{
+    background-color:yellow;
+    color:orangered;
+}
+
+

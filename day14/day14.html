@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event listener</title>
+    <link rel="stylesheet" href="day14.css">
+</head>
+<body>
+    <h1 id="aa" onclick="clickme()"> I am heading. </h1>
+   <p id="bb" onmouseover="mouseover()" onmouseout="mouseout()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam officia cumque illo minima quos vero nesciunt laboriosam repudiandae rerum sapiente tempora, fugit sunt. Asperiores eius ratione totam inventore, optio aut.</p>
+   <input id="cc" onkeydown="keydow()" placeholder="key down">
+  
+   <br><br>
+   <input id="dd" onkeyup="keyupp()" placeholder="key up">
+
+   <br><br>
+   <input id="ee" onfocus="focus()" placeholder="i am focus">
+
+   <br><br>
+   <input id="ff" onblur="blur()" placeholder="i am blur">
+
+   <p id="gg" onresize="ree()">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam officia cumque illo minima quos vero nesciunt laboriosam repudiandae rerum sapiente tempora, fugit sunt. Asperiores eius ratione totam inventore, optio aut.</p>
+   
+</body>
+<script>
+    function clickme()
+    {
+        document.getElementById("aa").style.backgroundColor="red";
+    }
+    function mouseover()
+    {
+        document.getElementById("bb").style.backgroundColor="black";
+
+    }
+
+    function mouseout()
+    {
+        document.getElementById("bb").style.backgroundColor="pink";
+
+    }
+    function ree()
+    {console.log("you are doing resize");
+        // document.getElementById("gg").style. backgroundColor="grey";
+
+    }
+
+    function focus()
+    {
+        document.getElementById("ee").style.backgroundColor="pink";
+        console.log("you are doing focus");
+
+    }
+    function blur()
+    {
+        document.getElementById("ff").style.backgroundColor="green";
+        console.log("you are doing blur");
+
+    }
+    function keydow()
+    {
+        console.log("you are doing keydown");
+
+    }
+    function keyupp()
+    {
+        console.log("you are doing keyup");
+    } 
+</script>
+</html>
