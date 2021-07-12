@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    display:inline-block;
+    width:400px;
+    height:399.5px;
+    /* background-color:red; */
+    margin:100px auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+justify-content:center;
+border:20px solid black;
+padding:0px;
+
+}
+.chess{
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+}
+.chesso{
+    display:inline-block;
+    margin:0px;
+    padding:0px;
+    /* flex-grow: 3; */
+    
+}
+.box{
+    /* border:2px solid yellow; */
+    /* display:inline-block; */
+    width:40px;
+    height:40px;
+    margin:0px;
+    padding:0px;
+}
+.chess :nth-child(2n+0){
+    background-color:white;
+}
+.chess :nth-child(2n+1){
+    background-color:black;
+}
+
+
+.chesso :nth-child(2n+0){
+    background-color:black;
+}
+.chesso :nth-child(2n+1){
+    background-color:white;
+}
