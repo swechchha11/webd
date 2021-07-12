@@ -1,0 +1,23 @@
+.app{
+    color:white;
+    font-weight:bold;
+    font-size:1.5em;
+}
+.card{
+    position:relative;
+    border:2px solid black;
+    width:500px;
+    height:400px;
+    margin: 100px auto;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR98jWoKj2yP-45SUN4ceG-K5YCMWtJMb1TFw&usqp=CAU');
+  /* r:no-repeat; */
+  background-size: cover;
+  text-align:center;
+}
+.bot{
+    position:absolute;
+    bottom:0;
+    left:15px;
+
+
+}
